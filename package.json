@@ -1,14 +1,17 @@
 {
   "name": "chibi-taalk",
+  "type": "module",
   "version": "0.0.1",
   "packageManager": "pnpm@9.11.0",
   "author": "ubugeeei",
   "scripts": {
+    "thumbnail": "pnpm --filter=@chibi-taalk/thumbnail",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.7.3",
+    "@types/node": "^22.7.4",
     "eslint": "^9.11.1"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "name": "@chibi-taalk/thumbnail",
+  "type": "module",
+  "author": "ubugeeei",
+  "scripts": {
+    "build": "x-satori -t ./Template.vue -c ./config.ts -o",
+    "dev": "x-satori -t ./Template.vue -c ./config.ts --dev"
+  },
+  "dependencies": {
+    "vue": "^3.5.10"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "vite": "^5.4.8",
+    "x-satori": "^0.2.0"
+  }
+}
