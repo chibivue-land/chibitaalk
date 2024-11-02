@@ -1,17 +1,18 @@
 {
-  "name": "chibi-taalk",
+  "name": "chibitaalk",
+  "private": true,
   "type": "module",
-  "version": "0.0.1",
-  "packageManager": "pnpm@9.11.0",
-  "author": "ubugeeei",
   "scripts": {
-    "thumbnail": "pnpm --filter=@chibi-taalk/thumbnail",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
-  "devDependencies": {
-    "@antfu/eslint-config": "^3.7.3",
-    "@types/node": "^22.7.4",
-    "eslint": "^9.11.1"
-  }
+  "dependencies": {
+    "nuxt": "^3.13.2",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "packageManager": "pnpm@9.12.1"
 }
